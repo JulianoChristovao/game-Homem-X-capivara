@@ -3,9 +3,9 @@ import random #importado a biblioteca Randon qua fará o sorteamento das decisõ
 #--- Opções do Menu ---
 print("\nBem vindo ao Jogo: Homem x Capivara!!!\n")
 print("Pressione a tecla Q para sair ou a tecla I para iniciar")
-menu_1 = input().upper()  # Converte a entrada para maiúsculas para facilitar a comparação
-while menu_1 != "Q":
-    if menu_1 == "I":
+menu = input().upper()  # Converte a entrada para maiúsculas para facilitar a comparação
+while menu != "Q":
+    if menu == "I":
 
 # --- Código do Game ---
         print(
@@ -81,6 +81,6 @@ while menu_1 != "Q":
                     print('vai para a fase 2')
 
     print("\nPressione a tecla Q para sair ou a tecla I para iniciar")
-    menu_1 = input().upper()
+    menu = input().upper()
 
 print("Você saiu do jogo")
